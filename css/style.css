@@ -1,0 +1,138 @@
+.card {
+  min-height: 290px;
+  opacity: 0.85;
+}
+
+nav {
+  border-bottom: #f04467 3px solid;
+  opacity: 0.8;
+}
+
+#home {
+  background-image: url("../img/flowers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  margin-top: 0;
+}
+#home #overlay {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  width: 70%;
+  height: 603px;
+}
+#home .home-inner {
+  padding-top: 150px;
+}
+
+#studio-head {
+  background-color: #f5c7cc;
+}
+
+#studio {
+  background-color: #f5c7cc;
+}
+#studio .fa {
+  color: #e62124;
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+#services-head, #services, #price-list-head, hr {
+  background-color: #f5c7cc;
+}
+
+.list-group-item-op {
+  opacity: 0.9;
+}
+
+#sales {
+  background-image: url(../img/sales.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#sales .lay {
+  background-color: rgba(245, 199, 204, 0.7);
+}
+#sales .lay h2 {
+  background-color: rgba(245, 199, 204, 0.7);
+  border-radius: 50px;
+}
+#sales .lay .card {
+  background-color: #f5c7cc;
+  min-height: 250px;
+  border-radius: 5px;
+}
+#sales .lay .card .lead {
+  font-size: 26px;
+}
+
+#price-list {
+  background: linear-gradient(to top, #fff, #f5c7cc);
+}
+#price-list .fa {
+  height: 25px;
+  color: #f04467;
+  padding: 5px;
+}
+#price-list hr {
+  background-color: #f04467;
+}
+
+footer {
+  border-top: #f04467 3px solid;
+  color: #f04467;
+}
+footer .fa {
+  color: #f04467;
+  font-size: 23px;
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 276px) {
+  .small {
+    display: flex;
+  }
+
+  .big {
+    display: none;
+  }
+}
+/* Medium devices (tablets) */
+@media (min-width: 500px) {
+  .small {
+    display: flex;
+  }
+
+  .big {
+    display: none;
+  }
+}
+/* Large devices (desktops) */
+@media (min-width: 770px) {
+  .small {
+    display: none;
+  }
+
+  .big {
+    display: flex;
+  }
+}
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  .small {
+    display: none;
+  }
+
+  .big {
+    display: flex;
+  }
+}
+/* The given screen size or smaller */
+/* Extra small devices (portrait phones)*/
+/* Small devices (landscape phones)*/
+/* Medium devices (tablets)*/
+/* Large devices (desktops)*/
